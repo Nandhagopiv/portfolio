@@ -42,13 +42,13 @@ const About = () => (
         <div className="education-item">
           <h3>MBA</h3>
           <p>Hindusthan Institute of Technology, Coimbatore</p>
-          <p>(2018 - 2023)</p>
+          <p>(2021 - 2023)</p>
           <p>CGPA: 6.9</p>
         </div>
         <div className="education-item">
           <h3>B.Com (Computer Application)</h3>
           <p>Parvathy’s Arts and Science College, Dindigul</p>
-          <p>(2021 - 2023)</p>
+          <p>(2018 - 2021)</p>
           <p>CGPA: 6.5</p>
         </div>
       </section>
