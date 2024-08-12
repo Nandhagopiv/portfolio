@@ -197,10 +197,11 @@ ul li {
 }
 
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   gap: 20px;
+  padding: 10px;
 }
 
 .project-card {
@@ -208,7 +209,7 @@ ul li {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 300px;
+  width: auto;
   text-align: center;
 }
 
@@ -266,3 +267,14 @@ ul li {
   text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+  .project-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+}
