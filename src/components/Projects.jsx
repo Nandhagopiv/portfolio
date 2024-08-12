@@ -18,6 +18,12 @@ const projects = [
       description: "Crafted a dynamic quiz app with HTML, CSS, and JavaScript. The app fetches questions from a JSON file and includes features like random question selection and auto-submission.",
       tech: "HTML, CSS, JavaScript",
       link: "https://nandhagopiv.github.io/properQuiz/"
+    },
+    {
+      "title": "Weather App",
+      "description": "Created a dynamic weather app using React, Node.js, and Express.js. The app features an input box where users can enter a location to retrieve real-time weather updates. It fetches weather data from a weather API and displays comprehensive information including the current temperature (30° Celsius in Chennai), weather condition (Mist), humidity (84%), pressure (1005 hPa), visibility (5 KM), wind speed (9.25 KMPH), wind direction (Towards South-East), maximum temperature (30.99° Celsius), minimum temperature (29.44° Celsius), longitude (80.2785), latitude (13.0878), sunrise time (5:56:16), and sunset time (18:31:44).",
+      "tech": "React, Node.js, Express.js, Weather API",
+      "link": "https://weather-app-api-psi.vercel.app/"
     }
   ];
   

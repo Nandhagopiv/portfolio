@@ -4,7 +4,7 @@ const About = () => (
   <Fragment>
      <div className="home-page">
       <header className="intro">
-        <h1>Nandhagopi</h1>
+        <h1>Nandhagopi Vempathur</h1>
         <h2>MERN Stack Developer</h2>
         <p>
           Fresher adept in MERN stack development, specializing in React.js,
